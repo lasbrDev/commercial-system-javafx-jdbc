@@ -190,7 +190,7 @@ If you prefer to use a Docker instance, run the following command in the termina
 ```bash
 docker run -d \
     --name mysql_dev \
-    -p 33306:3306 \
+    -p 3306:3306 \
     -e MYSQL_ROOT_PASSWORD=password \
     -v mysql-database:/var/lib/mysql \
     --network REDEMSQL \
